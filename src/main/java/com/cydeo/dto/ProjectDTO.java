@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
-import java.util.Date;
+
 
 @Data
 @AllArgsConstructor
@@ -14,7 +14,7 @@ import java.util.Date;
 public class ProjectDTO {
     private String projectName;
     private String projectCode;
-    private UserDTO userDTO;
+    private UserDTO assignedManager;
     private LocalDate startDate;
     private LocalDate endDate;
     private String projectDetail;
